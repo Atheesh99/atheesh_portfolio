@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { CgPlayStop } from "react-icons/cg";
+import { DiAndroid } from "react-icons/di";
+import { FaAndroid, FaAppStore } from "react-icons/fa";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -12,16 +15,19 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiMacos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <DiAndroid />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAppStore />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
