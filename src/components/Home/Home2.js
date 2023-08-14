@@ -30,26 +30,26 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Mobile Applications and Web Designs </b> and
+                <b className="purple">Mobile Applications and UI Designs </b> 
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Figma Designs.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">DART</b> and
+              with <b className="purple">ANDROID</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  IOS DEVELOPMENT and Technologies
+                  IOS DEVELOPMENT and Technologies.
                 </b>
               </i>
-              &nbsp; like
+              {/* &nbsp; like
               <i>
                 <b className="purple"> React.Native and ShiFt OS</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
